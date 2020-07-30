@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+.mainDiv{
+    display:flex;
+    min-width: 100vh;
+    flex-direction: column;
+}
+
+.Header{
+    display:flex;
+    flex: 1;
+    height: 60px;
+    padding:0px 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 20px;
+    color:cornflowerblue;
+}
+
+.spacing{
+    flex: 1;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 20px;
+    color:cornflowerblue;
+}
+
+.appBody{
+    padding:30px 100px;
+}
+
+.appBody a{
+    color: cornflowerblue;
+}
+
+.noteDiv{
+    display:flex;
+    justify-content:center;
+    border: 1px solid cornflowerblue;
+    padding: 10px;
+    color: cornflowerblue;
+}
+
+.Footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 50px;
+    height: 60px;
+}
+
+.Footer{
+    color:cornflowerblue;;
+}
+
+.additionalInfo{
+    display: flex;
+}
+
+.additionalInfo p{
+    padding: 0px 20px;
+}
+
+.followingSpan{
+    transition:all 0.5s;
+    display: block;
+    position: absolute;
+    color:white;
+    background-color: darkslategray;
+    border-radius:10px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
